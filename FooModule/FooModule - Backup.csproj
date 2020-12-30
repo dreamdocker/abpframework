@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<OutputType>Library</OutputType>
+	</PropertyGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="MyResources\**" />
+		<EmbeddedResource Include="Pages\**\*.js" />
+		<EmbeddedResource Include="Pages\**\*.css" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Dapper.Contrib" Version="2.0.78" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.Autofac" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.Caching" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.Dapper" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.EntityFrameworkCore.MySQL" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.FeatureManagement.Application" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.FeatureManagement.Web" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.Localization" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.MemoryDb" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.MongoDB" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.PermissionManagement.Application" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.PermissionManagement.Web" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.SettingManagement.Web" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.Specifications" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.TenantManagement.Application" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.TenantManagement.Web" Version="4.0.2" />
+		<PackageReference Include="Volo.Abp.VirtualFileSystem" Version="4.0.2" />
+	</ItemGroup>
+</Project>

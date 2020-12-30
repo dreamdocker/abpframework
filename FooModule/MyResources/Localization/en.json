@@ -1,0 +1,13 @@
+﻿{
+  "culture": "en",
+  "texts": {
+    "HelloWorld": "Hello,World!",
+    "Foo:001": "User {UserName} not found!",
+
+    "Permission:CatStore": "CatStore",
+    "Permission:CatStore.Cats": "Cats",
+    "Permission:CatStore.Cats.Creeate": "Create",
+    "Permission:CatStore.Cats.Edit": "Edit",
+    "Permission:CatStore.Cats.Delete": "Delete"
+  }
+}

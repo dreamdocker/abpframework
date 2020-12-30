@@ -1,0 +1,13 @@
+﻿{
+  "culture": "zh-Hans",
+  "texts": {
+    "HelloWorld": "世界，您好！",
+    "Foo:001": "用户 {UserName} 未找到！",
+
+    "Permission:CatStore": "零度猫店",
+    "Permission:CatStore.Cats": "机器猫",
+    "Permission:CatStore.Cats.Creeate": "创建",
+    "Permission:CatStore.Cats.Edit": "编辑",
+    "Permission:CatStore.Cats.Delete": "删除"
+  }
+}

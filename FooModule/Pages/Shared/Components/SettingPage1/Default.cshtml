@@ -1,0 +1,11 @@
+﻿@using Localization.Resources.AbpUi
+@using Microsoft.Extensions.Localization
+@model Dictionary<string, string>
+
+<form method="post" action="/api/app/Setting">
+    @foreach (var item in Model)
+    {
+        <abp-input asp-for="@item" label="@item.Key" name="@item.Key" value="@item.Value" />
+    }
+    <input abp-button="Primary" type="submit" value="Submit" />
+</form>

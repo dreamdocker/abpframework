@@ -1,0 +1,27 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.Localization
+@model BookStore.Web.Pages.IndexModel
+@inject IHtmlLocalizer<FooModule.Localization.TestResource> L
+
+@section styles {
+    <abp-style-bundle>
+        <abp-style src="/FooModule/Pages/Index.css" />
+        <abp-style src="/Pages/AbpPermissionManagement/permission-management-modal.css" />
+    </abp-style-bundle>
+}
+@section scripts {
+    <abp-script-bundle>
+        <abp-script src="/FooModule/Pages/Index.js" />
+        <abp-script src="/Pages/AbpPermissionManagement/permission-management-modal.js" />
+        <abp-script src="/Pages/FeatureManagement/feature-management-modal.js" />
+    </abp-script-bundle>
+}
+
+<div class="jumbotron">
+    <h1>@L["HelloWorld"]</h1>
+</div>
+<div class="jumbotron">
+    <!--https://bootstrap-taghelpers.abp.io/-->
+    <abp-button button-type="Primary" class="permission-manager">@L["Permissions"]</abp-button>
+    <abp-button button-type="Primary" class="feature-manager">@L["Features"]</abp-button>
+</div>
