@@ -11,7 +11,7 @@ namespace FooModule.Application
 
         public virtual float? Price { get; set; }
 
-        public new Guid Id { get => base.Id; set => Id = value; }
+        public new Guid Id { get => base.Id; set => base.Id = value; }
 
         protected Movie() { }
 
